@@ -19,10 +19,11 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * `-------------------------------------------------'
      */
     KEYMAP(
-        ESC, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P, BSPC,\
-        CAPS,A,   S,   D,   F,   G,   H,   J,   K,   L,       ENT,\
-        LSFT,     Z,   X,   C,   V,   B,   N,   M, SLSH,RSFT,  FN0,\
-        LCTL,LGUI,LALT,          SPC,                  RALT,RCTL),
+    //  1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12
+        D,   O,   H,   E,   R,   T,   Y,   U,   I,   P,  A,  A,\
+        D,   O,   H,   E,   R,   T,   Y,   J,   K,   L,  A,\
+        D,   O,   H,   E,   R,   T,   Y,   M,   A,   A,  A,\
+        A,   A,   A,        A,        A,        A,   A,  A),
 
     /* Keymap 1: FN Layer
      * ,-------------------------------------------------.
@@ -35,11 +36,12 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * |Left|Down|Riht|                        |    |    |
      * `-------------------------------------------------'
      */
-    KEYMAP(
-        GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   DEL,\
-        COMM,DOT,SCLN,QUOT,LBRC,RBRC,BSLS,MINS,EQL,  PGUP,     TRNS,\
-        TRNS,     UP,  INS, FN1, FN2, VOLU,VOLD,MUTE,PGDN,TRNS,TRNS,\
-        LEFT,DOWN,RGHT,          TRNS,                    TRNS,TRNS)
+     KEYMAP(
+     //  1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12
+         F,   R,   U,   S,   T,   R,   A,   T,   E,   P,  A,  A,\
+         D,   O,   H,   E,   R,   T,   Y,   J,   K,   L,  A,\
+         D,   O,   H,   E,   R,   T,   Y,   M,   A,   A,  A,\
+         A,   A,   A,        A,        A,        B,   B,  B),
 };
 
 /*

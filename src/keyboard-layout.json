@@ -1,0 +1,195 @@
+[
+  {
+    "author": "Ben Doherty",
+    "background": {
+      "name": "Carbon fibre 2",
+      "style": "background-image: url('/bg/carbonfibre/carbon_texture1874.png');"
+    },
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-L1xx",
+    "plate": true
+  },
+  [
+    {
+      "c": "#cf2525",
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    },
+    "\n\n<i class='fa fa-lock'></i>\n\nEsc\n\nEsc",
+    {
+      "c": "#cccccc",
+      "t": "#0a16f7\n\n#0af73e\n\n#575757\n\n\n\n\n\n#cc00ff",
+      "fa": [
+        4,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "1\n\n~\n\nQ\n\n\n\n\n\nf1",
+    "2\n\n`\n\nW\n\n\n\n\n\nf2",
+    "3\n\n|\n\nE\n\n\n\n\n\nf3",
+    "4\n\n&bull;\n\nR\n\n\n\n\n\nf4",
+    "5\n\n&radic;\n\nT\n\n\n\n\n\nf5",
+    "6\n\n&pi;\n\nY\n\n\n\n\n\nf6",
+    "7\n\n&divide;\n\nU\n\n\n\n\n\nf7",
+    "8\n\n&times;\n\nI\n\n\n\n\n\nf8",
+    "9\n\n&para;\n\nO\n\n\n\n\n\nf9",
+    "0\n\n&Delta;\n\nP\n\n\n\n\n\nf11",
+    "del\n\n<i class='fa fa-bars'></i>\n\nBackspace\n\n\n\n\n\nf12"
+  ],
+  [
+    {
+      "t": "#0a16f7\n\n\n\n#575757",
+      "a": 7,
+      "w": 1.25
+    },
+    "\n\n\n\nTab",
+    {
+      "t": "#0a16f7\n\n#0af73e\n\n#575757\n\n\n\n\n\n#cc00ff",
+      "a": 4
+    },
+    "@\n\n&pound;\n\nA\n\n\n\n\n\n&infin;",
+    "#\n\n&cent;\n\nS\n\n\n\n\n\n&exist;",
+    "$\n\n&euro;\n\nD\n\n\n\n\n\n&empty;",
+    "_\n\n¥\n\nF\n\n\n\n\n\n&isin;",
+    "&\n\n^\n\nG\n\n\n\n\n\n&notin;",
+    "-\n\n&deg;\n\nH\n\n\n\n\n\n&sum;",
+    "+\n\n=\n\nJ\n\n\n\n\n\n&ang;",
+    "(\n\n{\n\nK\n\n\n\n\n\n&cup;",
+    ")\n\n}\n\nL\n\n\n\n\n\n&cap;",
+    {
+      "x": 0.25,
+      "w": 1.25
+    },
+    "/\n\n\\\n\nEnter\n\n\n\n\n\n¯\\_(ツ)_/¯"
+  ],
+  [
+    {
+      "t": "#0a16f7\n\n\n\n#575757",
+      "a": 7,
+      "w": 1.75
+    },
+    "\n\n\n\nShift",
+    {
+      "t": "#0a16f7\n\n#0af73e\n\n#575757\n\n\n\n\n\n#cc00ff",
+      "a": 4,
+      "f": 3
+    },
+    "*\n\n%\n\nZ\n\n\n\n\n\n<i class='kb kb-Multimedia-Mute-2'></i>",
+    {
+      "f": 3
+    },
+    "\"\n\n&copy;\n\nX\n\n\n\n\n\n<i class='kb kb-Multimedia-Volume-Down-1'></i>",
+    {
+      "f": 3
+    },
+    "'\n\n&reg;\n\nC\n\n\n\n\n\n<i class='kb kb-Multimedia-Volume-Up-1'></i>",
+    {
+      "f": 3
+    },
+    ":\n\n&trade;\n\nV\n\n\n\n\n\n&#9788;",
+    {
+      "f": 3
+    },
+    ";\n\n&#8453;\n\nB\n\n\n\n\n\n&#9728;",
+    {
+      "f": 3
+    },
+    "!\n\n[\n\nN\n\n\n\n\n\n<i class='fa fa-terminal'></i>",
+    {
+      "f": 3
+    },
+    "?\n\n]\n\nM\n\n\n\n\n\n<i class='fa fa-television '></i>",
+    {
+      "f": 3
+    },
+    "\n\n&sup2;\n\n,<\n\n\n\n\n\n<i class='kb kb-Unicode-PrintScreen-2'></i>",
+    {
+      "t": "#0a16f7\n\n#0af73e\n\n#575757",
+      "f": 3
+    },
+    "\n\n&sup2;\n\n.>",
+    {
+      "t": "#0a16f7\n\n\n\n#575757\n\n\n\n\n\n#cc00ff",
+      "fa": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "<i class='fa fa-file-text-o'></i>&#9652;\n\n\n\n&#9652;\n\n\n\n\n\n&there4;"
+  ],
+  [
+    {
+      "x": 0.1,
+      "t": "#0a16f7\n\n\n\n#575757",
+      "a": 7
+    },
+    "\n\n\n\nCtrl",
+    {
+      "x": 0.1499999999999999,
+      "c": "#00ff38",
+      "t": "#0a16f7"
+    },
+    "\n\n\n\nFN0",
+    {
+      "x": 0.25,
+      "c": "#cccccc",
+      "t": "#0a16f7\n\n\n\n#575757"
+    },
+    "\n\n\n\nAlt",
+    {
+      "x": 0.25,
+      "c": "#0039ff",
+      "t": "#0af793",
+      "w": 2.25
+    },
+    "\n\n\n\nFN1",
+    {
+      "c": "#cccccc",
+      "t": "#0a16f7\n\n\n\n#575757",
+      "w": 2.5
+    },
+    "\n\n\n\nspace",
+    {
+      "t": "#0a16f7\n\n\n\n#575757\n\n\n\n\n\n#cc00ff",
+      "a": 4,
+      "f": 3
+    },
+    "home\n\n\n\n&#9666;\n\n\n\n\n\n&ndash;",
+    {
+      "x": 0.1999999999999993,
+      "f": 3
+    },
+    "<i class='fa fa-file-text-o'></i>&#9662;\n\n\n\n&#9662;\n\n\n\n\n\n&mdash;",
+    {
+      "x": 0.1999999999999993,
+      "f": 3
+    },
+    "end\n\n\n\n&#9656;\n\n\n\n\n\n&plusmn;"
+  ]
+]

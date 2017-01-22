@@ -1,0 +1,442 @@
+[
+  {       "human_name": "Underscore",
+    "kb_editor_symbol": "_",
+               "macro": "MACRO,( D(LSFT), T(-), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "Exclamation mark",
+    "kb_editor_symbol": "!",
+               "macro": "MACRO,( D(LSFT), T(1), U(LSFT), END )",
+        "macro_mumber": 1},
+
+  {       "human_name": "Angle Symbol",
+    "kb_editor_symbol": "&ang;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&bull;",
+               "macro": "",
+        "macro_mumber": 3},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&cap;",
+               "macro": "",
+        "macro_mumber": 4},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&cent;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "(",
+               "macro": "MACRO,( D(LSFT), T(9), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": ")",
+               "macro": "MACRO,( D(LSFT), T(0), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "{",
+               "macro": "MACRO( ,D(LSFT), T([), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "}",
+               "macro": "MACRO( D(LSFT), T(]), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "@",
+               "macro": "MACRO,( D(LSFT), T(2), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "*",
+               "macro": "MACRO,( D(LSFT), T(8), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&",
+               "macro": "MACRO,( D(LSFT), T(7), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#8453;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(1), T(0), T(5), T(SPC), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9652;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9652;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9656;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9662;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9662;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9666;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9728;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&#9788;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&ang;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&bull;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&cap;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&cent;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&copy;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&cup;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&deg;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&Delta;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&divide;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&empty;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&euro;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&exist;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "Infinity",
+    "kb_editor_symbol": "&infin;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(1), T(E), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&isin;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&mdash;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&ndash;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&notin;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&para;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&pi;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&plusmn;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&pound;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&radic;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&reg;",
+               "macro": "MACRO,( D(LSFT), D(LCTL), T(U), T(2), T(2), T(2), T(0), T(SPC), END )",
+        "macro_mumber": 2},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&sum;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&sup2;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&there4;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&times;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "&trade;",
+               "macro": "",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "%",
+               "macro": "MACRO,( D(LSFT), T(5), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "^",
+               "macro": "MACRO,( D(LSFT), T(6), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "¯\\_(ツ)_/¯"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "+",
+               "macro": "MACRO,( D(LSFT), T(=), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<",
+               "macro": "MACRO,( D(LSFT), T(,), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='fa fa-bars'></i>"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='fa fa-television '></i>"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='fa fa-terminal'></i>"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='kb kb-Multimedia-Mute-2'></i>",
+               "macro": "MUTE",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='kb kb-Multimedia-Volume-Down-1'></i>",
+               "macro": "VOLD",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='kb kb-Multimedia-Volume-Up-1'></i>",
+               "macro": "VOLU",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "<i class='kb kb-Unicode-PrintScreen-2'></i>",
+               "macro": "PSCR",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": ">",
+               "macro": "MACRO,( D(LSFT), T(.), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "|",
+               "macro": "MACRO,( D(LSFT), T(BSLS), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "~",
+               "macro": "MACRO,( D(LSFT), T(`), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "$",
+               "macro": "MACRO,( D(LSFT), T(4), U(LSFT), END )",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "¥"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "Alt",
+               "macro": "LALT",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "Backspace",
+               "macro": "BSPC",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "Ctrl",
+               "macro": "LCTRL,",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "del",
+               "macro": "DEL",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "DOWN",
+               "macro": "DOWN",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "end",
+               "macro": "END",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "Enter",
+               "macro": "ENTER,",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "Esc",
+               "macro": "ESC",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f1" ,
+               "macro": "F1" ,
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f11",
+               "macro": "F11",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f12",
+               "macro": "F12",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f2",
+               "macro": "F2",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f3",
+               "macro": "F3",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f4",
+               "macro": "F4",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f5",
+               "macro": "F5",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f6",
+               "macro": "F6",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f7",
+               "macro": "F7",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f8",
+               "macro": "F8",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "f9",
+               "macro": "F9",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "home",
+               "macro": "HOME",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "LEFT",
+               "macro": "LEFT",
+        "macro_mumber": 0},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "MO(1)"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "MO(2)"},
+
+  {       "human_name": "",
+    "kb_editor_symbol": "RIGHT",
+               "macro": "RIGHT",
+        "macro_mumber": 0}
+]
