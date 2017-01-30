@@ -6,8 +6,9 @@ function getJSON(filePath){
 }
 
 console.log("we're here" + process.env.PWD);
-var layout  = getJSON(process.env.PWD + '/src/keyboard-layout.json');
-var charMap = getJSON(process.env.PWD + '/src/keyMapping.json');
+var path = '/projects/git/AMJ40/src/'
+var layout  = getJSON(process.env.PWD + path + 'keyboard-layout.json');
+var charMap = getJSON(process.env.PWD + path + 'keyMapping.json');
 
 var mainLayer = [];
 var greenLayer= [];

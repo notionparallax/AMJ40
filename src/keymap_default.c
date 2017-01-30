@@ -7,41 +7,34 @@ const uint8_t keymaps[KEYMAPS_COUNT][MATRIX_ROWS][MATRIX_COLS] __attribute__ ((s
 #else
 const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
 #endif
-    /* Keymap 0: Default Layer
-     * ,-------------------------------------------------.
-     * |Esc | Q|  W|  E|  R|  T|  Y|  U|  I|  O|  P| Bs  |
-     * |-------------------------------------------------|
-     * |Caps  |  A|  S|  D|  F|  G|  H|  J|  K|  L|  Ent |
-     * |-------------------------------------------------|
-     * |Shift   |  Z|  X|  C|  V|  B|  N|  M|  /| SFT|FN0|
-     * |-------------------------------------------------|
-     * |Ctrl|Win |Alt |       Space            |Alt |Ctrl|
-     * `-------------------------------------------------'
-     */
-    KEYMAP(
-    //  1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12
-        D,   O,   H,   E,   R,   T,   Y,   U,   I,   P,  A,  A,\
-        D,   O,   H,   E,   R,   T,   Y,   J,   K,   L,  A,\
-        D,   O,   H,   E,   R,   T,   Y,   M,   A,   A,  A,\
-        A,   A,   A,        A,        A,        A,   A,  A),
 
-    /* Keymap 1: FN Layer
-     * ,-------------------------------------------------.
-     * | ` |  1|  2|  3|  4|  5|  6|  7|  8|  9|  0|Del  |
-     * |-------------------------------------------------|
-     * |   ,  | . | ; | ' | [ | ] | \ | - | = |PgUp|     |
-     * |-------------------------------------------------|
-     * |       |Up|Ins|FN1|FN2|VolU|VolD|Mute|PgDn|   |  |
-     * |-------------------------------------------------|
-     * |Left|Down|Riht|                        |    |    |
-     * `-------------------------------------------------'
-     */
-     KEYMAP(
-     //  1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12
-         F,   R,   U,   S,   T,   R,   A,   T,   E,   P,  A,  A,\
-         D,   O,   H,   E,   R,   T,   Y,   J,   K,   L,  A,\
-         D,   O,   H,   E,   R,   T,   Y,   M,   A,   A,  A,\
-         A,   A,   A,        A,        A,        B,   B,  B),
+// -----------------------------------------------------------
+// | Esc | Q | W | E | R | T | Y | U | I | O | P | Backspace |
+// -----------------------------------------------------------
+// | Tab | A | S | D | F | G | H | J | K | L | Enter |
+// ---------------------------------------------------
+// | Shift | Z | X | C | V | B | N | M | DOT | UP | Shift |
+// --------------------------------------------------------
+// | Ctrl | FN0 | Alt | FN1 | SPC | LEFT | DOWN | RIGHT |
+// ------------------------------------------------------
+
+// Stagger
+// #define KEYMAP(
+//     K00, K01, K02, K03, K04, K05, K06, K07, K08, K09, K0A, K0B,
+//     K10, K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A,
+//     K20, K21, K22, K23, K24, K25, K26, K27, K28, K29, K2A,
+//     K30, K31, K32,      K33,      K34,      K35, K36, K37
+//       1,    2,    3,    4,    5,    6,     7,    8,    9,   10,  11,     12
+KEYMAP(
+      ESC,     Q,    W,    E,    R,    T,     Y,    U,    I,   O,   P,    BSPACE,  \
+      TAB,     A,    S,    D,    F,    G,     H,    J,    K,   L,   ENTER,  \
+      LSHIFT,  Z,    X,    C,    V,    B,     N,    M,  DOT,  UP,   RSHIFT,  \
+      LCTRL, FN0, LALT,        FN1,         SPC,       LEFT, DOWN,  RIGHT),
+KEYMAP(
+      TRNS,    1,    2,    3,    4,    5,     6,    7,    8,    9,   0,   DEL,  \
+      TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS,  \
+      TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS,  \
+      TRNS, TRNS, TRNS,       TRNS,        TRNS,       TRNS,  TRNS, TRNS)
 };
 
 /*
@@ -53,8 +46,9 @@ const uint16_t fn_actions[FN_ACTIONS_COUNT] __attribute__ ((section (".keymap.fn
 const uint16_t fn_actions[] PROGMEM = {
 #endif
     [0] = ACTION_LAYER_MOMENTARY(1),
-    [1] = ACTION_BACKLIGHT_DECREASE(),
-    [2] = ACTION_BACKLIGHT_INCREASE()
+    [1] = ACTION_LAYER_MOMENTARY(2),
+    [2] = ACTION_BACKLIGHT_DECREASE(),
+    [3] = ACTION_BACKLIGHT_INCREASE()
 };
 
 #ifdef KEYMAP_IN_EEPROM_ENABLE
@@ -67,20 +61,35 @@ uint16_t fn_actions_count(void) {
 }
 #endif
 
-/*
- * Action macro definition
- */
-enum macro_id {
-    KEYPAD_00 = 0,
-};
 
-const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
-{
-    switch (id) {
-        case KEYPAD_00:
-            return (record->event.pressed ?
-                    MACRO( T(P0), T(P0), END ) :
-                    MACRO_NONE );
-    }
-    return MACRO_NONE;
-}
+/*
+ * Macro definition
+ */
+// enum macro_id {
+//     USCORE,
+//     ENEMAYUSCULA,
+// };
+//
+// const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
+// {
+//     keyevent_t event = record->event;
+//     //uint8_t tap_count = record->tap_count;
+//
+//     switch (id) {
+//         case USCORE:
+//             return (event.pressed ?
+//                     MACRO( D(LSFT), T(MINUS), U(LSFT), END ) :
+//                     MACRO( END ) );
+//         case ENEMAYUSCULA:
+//             return (event.pressed ?
+//                     MACRO( D(LSHIFT), T(GRV), T(N), U(LSHIFT), END ) :
+//                     MACRO( END ) );
+//     }
+//     return MACRO_NONE;
+// }
+//
+//
+// const uint16_t PROGMEM fn_actions[] = {
+//     [0] = ACTION_MACRO(USCORE),
+//     [1] = ACTION_MACRO(ENEMAYUSCULA),
+// };
