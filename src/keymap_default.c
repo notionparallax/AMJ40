@@ -24,17 +24,22 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
 //     K10, K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A,
 //     K20, K21, K22, K23, K24, K25, K26, K27, K28, K29, K2A,
 //     K30, K31, K32,      K33,      K34,      K35, K36, K37
-//       1,    2,    3,    4,    5,    6,     7,    8,    9,   10,  11,     12
+//       1,    2,    3,    4,    5,    6,     7,    8,    9,    10,  11,     12
 KEYMAP(
-      ESC,     Q,    W,    E,    R,    T,     Y,    U,    I,   O,   P,      BSPC,  \
-      TAB,     A,    S,    D,    F,    G,     H,    J,    K,   L,   ENT,    \
-      LSHIFT,  Z,    X,    C,    V,    B,     N,    M,  DOT,  UP,   RSFT, \
-      LCTRL, FN0, LALT,        FN1,         SPC,       LEFT, DOWN,  RIGHT),
+         ESC,   Q,    W,    E,    R,    T,     Y,    U,        I,        O,        P, BSPC,  \
+         TAB,   A,    S,    D,    F,    G,     H,    J,        K,        L,   SCOLON, \
+      LSHIFT,   Z,    X,    C,    V,    B,     N,    M,    COMMA,      DOT,     SLSH, \
+       LCTRL, FN0, LALT,        ENT,         SPC,       LBRACKET, RBRACKET,      FN1),
 KEYMAP(
-      TRNS,    1,    2,    3,    4,    5,     6,    7,    8,    9,   0,     DEL,  \
-      TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS,    \
-      TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS,    \
-      TRNS, TRNS, TRNS,       TRNS,        TRNS,       TRNS, TRNS, TRNS)
+      TRNS,    1,    2,    3,    4,    5,     6,    7,    8,     9,     0,   DEL,  \
+      TRNS,   F1,   F2,   F3,   F4,   F5,    F6,   F7,   F8,    F9,   F10,    \
+      TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, GRAVE, QUOTE,    \
+      TRNS, TRNS, TRNS,       TRNS,        TRNS,       TRNS, MINUS, EQUAL),
+KEYMAP(
+      TRNS,  TRNS,   UP,  TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS, DEL,  \
+      TRNS,  LEFT, DOWN, RIGHT, TRNS, TRNS,  TRNS, TRNS, TRNS, F11,   F12,       \
+      TRNS,  TRNS, MUTE,  TRNS, TRNS, TRNS,  TRNS, TRNS, TRNS, TRNS, TRNS,       \
+      TRNS,  TRNS, TRNS,        TRNS,        TRNS,       TRNS, TRNS, TRNS),
 };
 
 /*
